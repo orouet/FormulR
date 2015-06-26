@@ -2,7 +2,7 @@
 
 
 /**
- *
+ * Fonctions de base
  * @package FormulR
  * @author Olivier ROUET
  * @version 1.0.0
@@ -11,7 +11,6 @@
 
 /**
  * Vérification d'un type
- * @package FormulR
  *
  * @param string $donnee
  * @return boolean
@@ -77,7 +76,6 @@ function formulr_type_verifier($donnee, $type)
 
 /**
  * Vérification d'un code postal
- * @package FormulR
  *
  * @param string $chaine
  * @return boolean
@@ -104,7 +102,6 @@ function formulr_chaine_code_postal($chaine)
 
 /**
  * Vérification d'un numéro de téléphone
- * @package FormulR
  *
  * @param string $chaine
  * @return boolean
@@ -133,7 +130,6 @@ function formulr_chaine_telephone($chaine)
 
 /**
  * Vérification d'une date
- * @package FormulR
  *
  * @param string $chaine
  * @return boolean
@@ -162,7 +158,6 @@ function formulr_chaine_date($chaine)
 
 /**
  * Vérification d'un e-mail
- * @package FormulR
  *
  * @param string $chaine
  * @return boolean
@@ -191,7 +186,6 @@ function formulr_chaine_email($chaine)
 
 /**
  * Cherche et valide des correspondances entre un tableau d'entrées et un tableau de recherches
- * @package FormulR
  *
  * @param string $chaine
  * @return mixed

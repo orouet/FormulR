@@ -2,7 +2,7 @@
 
 
 /**
- *
+ * Objets de base
  * @package FormulR
  * @author Olivier ROUET
  * @version 1.0.0
@@ -197,7 +197,7 @@ class Formulr
 				$sortie .= '</td>' . "\n";
 				
 				$sortie .= '<td class="reponse">' . "\n";
-				$sortie .= '<select id="' . $parametres['variable'] . '" name="' . $parametres['variable'] . '"> . "\n"';
+				$sortie .= '<select id="' . $parametres['variable'] . '" name="' . $parametres['variable'] . '">' . "\n";
 				
 				foreach ($parametres['choix'] as $choix) {
 				
